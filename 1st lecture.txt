@@ -1,0 +1,180 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\dell> pwd
+
+Path
+----
+C:\Users\dell
+
+
+PS C:\Users\dell> ls
+
+
+    Directory: C:\Users\dell
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        31-03-2024     00:01                .anaconda
+d-----        19-03-2024     17:41                .cache
+d-----        30-05-2024     19:28                .conda
+d-----        31-03-2024     00:01                .continuum
+d-----        19-03-2024     13:00                .idlerc
+d-----        31-03-2024     00:12                .ipython
+d-----        31-03-2024     00:27                .jupyter
+d-----        19-04-2024     18:13                .ms-ad
+d-----        11-03-2024     21:21                .vscode
+d-r---        06-03-2024     14:38                3D Objects
+d-r---        06-03-2024     14:38                Contacts
+d-r---        28-07-2024     20:18                Desktop
+d-r---        17-07-2024     12:34                Documents
+d-r---        29-12-2024     19:30                Downloads
+d-r---        06-03-2024     14:38                Favorites
+d-r---        06-03-2024     14:38                Links
+d-r---        06-03-2024     14:38                Music
+d-r---        12-07-2024     18:06                OneDrive
+d-r---        17-04-2024     11:45                Pictures
+d-r---        06-03-2024     14:38                Saved Games
+d-r---        18-03-2024     00:49                Searches
+d-r---        07-09-2024     23:06                Videos
+-a----        31-03-2024     00:02             25 .condarc
+-a----        15-07-2024     22:46             53 .git-for-windows-updater
+-a----        13-07-2024     20:35             62 .gitconfig
+-a----        16-07-2024     16:23            184 .node_repl_history
+
+
+PS C:\Users\dell> ls la
+ls : Cannot find path 'C:\Users\dell\la' because it does not exist.
+At line:1 char:1
++ ls la
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dell\la:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\dell> ls l
+ls : Cannot find path 'C:\Users\dell\l' because it does not exist.
+At line:1 char:1
++ ls l
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dell\l:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\dell> ls _l
+ls : Cannot find path 'C:\Users\dell\_l' because it does not exist.
+At line:1 char:1
++ ls _l
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dell\_l:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users\dell> ls
+
+
+    Directory: C:\Users\dell
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        31-03-2024     00:01                .anaconda
+d-----        19-03-2024     17:41                .cache
+d-----        30-05-2024     19:28                .conda
+d-----        31-03-2024     00:01                .continuum
+d-----        19-03-2024     13:00                .idlerc
+d-----        31-03-2024     00:12                .ipython
+d-----        31-03-2024     00:27                .jupyter
+d-----        19-04-2024     18:13                .ms-ad
+d-----        11-03-2024     21:21                .vscode
+d-r---        06-03-2024     14:38                3D Objects
+d-r---        06-03-2024     14:38                Contacts
+d-r---        28-07-2024     20:18                Desktop
+d-r---        17-07-2024     12:34                Documents
+d-r---        29-12-2024     19:30                Downloads
+d-r---        06-03-2024     14:38                Favorites
+d-r---        06-03-2024     14:38                Links
+d-r---        06-03-2024     14:38                Music
+d-r---        12-07-2024     18:06                OneDrive
+d-r---        17-04-2024     11:45                Pictures
+d-r---        06-03-2024     14:38                Saved Games
+d-r---        18-03-2024     00:49                Searches
+d-r---        07-09-2024     23:06                Videos
+-a----        31-03-2024     00:02             25 .condarc
+-a----        15-07-2024     22:46             53 .git-for-windows-updater
+-a----        13-07-2024     20:35             62 .gitconfig
+-a----        16-07-2024     16:23            184 .node_repl_history
+
+
+PS C:\Users\dell> cd desktop
+PS C:\Users\dell\desktop> cd work
+cd : Cannot find path 'C:\Users\dell\desktop\work' because it does not exist.
+At line:1 char:1
++ cd work
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dell\desktop\work:String) [Set-Location], ItemNotFoundExceptio
+   n
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\dell\desktop> mkdir acciojob
+
+
+    Directory: C:\Users\dell\desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20-01-2025     11:36                acciojob
+
+
+PS C:\Users\dell\desktop> cd acciojob
+PS C:\Users\dell\desktop\acciojob> cd ..
+PS C:\Users\dell\desktop> cd .\acciojob\
+PS C:\Users\dell\desktop\acciojob> mkdir class_05
+
+
+    Directory: C:\Users\dell\desktop\acciojob
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20-01-2025     11:39                class_05
+
+
+PS C:\Users\dell\desktop\acciojob> .\class_05\
+.\class_05\ : The term '.\class_05\' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\class_05\
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\class_05\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\dell\desktop\acciojob> cd acciojob
+cd : Cannot find path 'C:\Users\dell\desktop\acciojob\acciojob' because it does not exist.
+At line:1 char:1
++ cd acciojob
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dell\desktop\acciojob\acciojob:String) [Set-Location], ItemNot
+   FoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\dell\desktop\acciojob> cd ./acciojob
+cd : Cannot find path 'C:\Users\dell\desktop\acciojob\acciojob' because it does not exist.
+At line:1 char:1
++ cd ./acciojob
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\dell\desktop\acciojob\acciojob:String) [Set-Location], ItemNot
+   FoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\dell\desktop\acciojob> cd class_05
+PS C:\Users\dell\desktop\acciojob\class_05> ls
+PS C:\Users\dell\desktop\acciojob\class_05> code .
+PS C:\Users\dell\desktop\acciojob\class_05> echo 'Hello world' > file.txt
+PS C:\Users\dell\desktop\acciojob\class_05> node index.js
+Hello world
+PS C:\Users\dell\desktop\acciojob\class_05> node -v
+v20.14.0
+PS C:\Users\dell\desktop\acciojob\class_05>
+

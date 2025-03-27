@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .left {
+        width: 50%;
+        flex-direction: column;
+      }
+      .right {
+        width: 50%;
+        flex-direction: column;
+      }
+      .picture {
+        border: none;
+        color: black;
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #fad67d;
+      }
+      .right-picture {
+        border: none;
+        color: black;
+        background-color: #bbfa7c;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px 20px;
+      }
+      .image {
+        background-size: cover;
+        overflow: hidden;
+        width: 400px;
+        padding-left: 50px;
+        margin-top: 30px;
+      }
+      .right-img {
+        background-size: cover;
+        overflow: hidden;
+        padding-left: 60px;
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 80px;
+      }
+      .button {
+        background-color: #3056a9;
+        border: none;
+        color: white;
+        padding: 0px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px 80px;
+        cursor: pointer;
+      }
+      .para {
+        font-size: 28px;
+        width: 40%;
+        padding-left: 40px;
+      }
+      span-1 {
+        color: #0164a5;
+      }
+      span-2 {
+        padding-left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="picture">Picture of the day</div>
+        <div class="image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cape_Town_%28ZA%29%2C_Wale_Street_--_2024_--_3544.jpg/500px-Cape_Town_%28ZA%29%2C_Wale_Street_--_2024_--_3544.jpg"
+            alt="img"
+          />
+        </div>
+        <div class="text">
+          <p>
+            Colorful houses in <span-1>Bo-Kaap, Cape Town,</span-1> Western
+            Cape, <br /><span-2>South Africa</span-2>
+          </p>
+        </div>
+      </div>
+      
+      <div class="right">
+        <div class="right-picture">Wiki Loves Folklore</div>
+        <div class="para">
+          <p>
+            Upload your local culture photos during Wiki Loves Folklore 2025.
+            <span-1>Learn more about the contest!</span-1>
+          </p>
+        </div>
+        <div class="right-img">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wiki-Loves-Love-logo.svg/100px-Wiki-Loves-Love-logo.svg.png"
+            alt=""
+          />
+        </div>
+        <div class="button">
+          <h3>Upload an image to Wiki Loves Folklore</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
