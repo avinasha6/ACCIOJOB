@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+.bestseller{
+    height: 550px;
+    width: 500px;
+    border: 2px solid red;
+}
+
+.product{
+    background-color: red;
+}
+
+h1{
+    background-color: black;
+    color: #fff;
+}
+
+p{
+    background-color: blue;
+    color: #fff;
+}
+
+.image{
+    background-color: green;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+}
+
+--> 3 types of selector in css
+1. type selector
+2. class selector
+3. id selector

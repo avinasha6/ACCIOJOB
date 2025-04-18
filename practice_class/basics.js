@@ -98,5 +98,34 @@
 // Remove Duplicates
 // [1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5];
 
-console.log("==== Check if an array is sorted ====")
+// console.log("==== Check if an array is sorted ====")
+
+
+// console.log("=== Closures ====")
+// arrow function --> in arrow function it return the value by evolving it.
+// closures --> remembrance of a function
+// state management is done with the help of closures in ReadableByteStreamController
+// also in setTimeinterval
+
+// console.log(a);
+// var a = 10;
+
+//Take an array to check the existance in that array.
+
+// let arr = [10, 20, 30, 40, 50];
+// let ele = 11;
+// let isPresent = false;
+// for (let i = 0; i<arr.length; i++){
+//     if (arr[i] === ele){
+//         // console.log(true);
+//         isPresent = true;
+//         break;
+//     }
+//     // else {
+//     //     console.log(false);
+//     // }
+// }
+// console.log(isPresent);
+
+console.log("=== Object ====")
 
